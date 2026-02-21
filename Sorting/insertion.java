@@ -18,7 +18,7 @@ public class insertion {
         System.out.println();
     }
     public static void main(String[] args) {
-        int[] nums = {5, 4, 1, 3, 2};
+        int[] nums = {5, 4, 1, 8, 2};
         insertion i = new insertion();
         i.insertionSort(nums);
         i.print(nums); 
