@@ -1,4 +1,5 @@
 public class selection {
+    // tc O(n^2) sc O(1)
     void selectionSort(int[] nums) {
         int n = nums.length;
         for(int i=0; i<n; i++){

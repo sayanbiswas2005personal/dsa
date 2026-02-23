@@ -1,4 +1,5 @@
 public class bubble {
+    // tc O(n^2) sc O(1)
     public void bubbleSort(int[] nums) {
         int n = nums.length;
         for(int i=n-1; i>=0; i--){

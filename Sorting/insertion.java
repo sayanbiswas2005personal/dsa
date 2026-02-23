@@ -1,4 +1,5 @@
 public class insertion {
+    // tc O(n^2) sc O(1)
     public void insertionSort(int arr[]) {
         int n = arr.length;
         for(int i=1; i<n; i++){
