@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// Time: O(log n), Space: O(1)
+// Logic: Reverses the number digit by digit and compares with the original.
 bool isPalindrome(int x) {
     if (x < 0) return false;
     long long rev = 0;

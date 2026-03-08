@@ -2,6 +2,8 @@
 #include <climits>
 using namespace std;
 
+// Time: O(log n), Space: O(1)
+// Logic: Reverses the integer by extracting digits and building the reverse number.
 int reverseBruteForce(int x) {
     int rev = 0;
     while (x != 0) {
@@ -11,6 +13,8 @@ int reverseBruteForce(int x) {
     return rev;
 }
 
+// Time: O(log n), Space: O(1)
+// Logic: Reverses the integer with overflow checks to prevent integer overflow.
 int reverseOptimized(int x) {
     int rev = 0;
     while (x != 0) {

@@ -4,6 +4,8 @@
 #include <algorithm>
 using namespace std;
 
+// Time: O(sqrt(n)), Space: O(d) where d is number of divisors (up to O(sqrt(n)))
+// Logic: Iterates up to sqrt(n) to find divisor pairs and collects them in a vector.
 vector<int> printDivisors(int n) {
     vector<int> divisors;
     

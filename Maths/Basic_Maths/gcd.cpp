@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// Time: O(log min(a,b)), Space: O(1)
+// Logic: Computes GCD using the Euclidean algorithm by repeated modulo operations.
 int gcd(int a, int b) {
     while (a > 0 && b > 0) {
         if (a > b) a = a % b;

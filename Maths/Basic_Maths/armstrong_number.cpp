@@ -2,6 +2,8 @@
 #include <cmath>
 using namespace std;
 
+// Time: O(log n), Space: O(1)
+// Logic: Counts the number of digits in the number by repeatedly dividing by 10.
 int countDigits(int n) {
     int count = 0;
     while (n > 0) {
@@ -11,6 +13,8 @@ int countDigits(int n) {
     return count;
 }
 
+// Time: O(log n), Space: O(1)
+// Logic: Checks if the number equals the sum of its digits each raised to the power of digit count.
 bool isArmstrong(int n) {
     int original = n;
     int digitCount = countDigits(n);
